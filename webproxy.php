@@ -37,3 +37,4 @@ if($data === false) {
     header('Content-Type: ' . $finfo->buffer($data));
     echo $data;
 }
+?>
